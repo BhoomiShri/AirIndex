@@ -1,0 +1,47 @@
+[
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E-204",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2026-09-10T08:30:00",
+    "price": 4500.0,
+    "scraped_at": "2026-09-08T14:00:00"
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI-805",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2026-09-10T10:15:00",
+    "price": 5200.0,
+    "scraped_at": "2026-09-08T14:00:00"
+  },
+  {
+    "airline": "Vistara",
+    "flight_number": "UK-993",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2026-09-10T14:00:00",
+    "price": 4900.0,
+    "scraped_at": "2026-09-08T14:00:00"
+  },
+  {
+    "airline": "Akasa Air",
+    "flight_number": "QP-1102",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2026-09-10T17:30:00",
+    "price": 4300.0,
+    "scraped_at": "2026-09-08T14:00:00"
+  },
+  {
+    "airline": "SpiceJet",
+    "flight_number": "SG-8161",
+    "origin": "DEL",
+    "destination": "BOM",
+    "departure_time": "2026-09-10T19:45:00",
+    "price": 4100.0,
+    "scraped_at": "2026-09-08T14:00:00"
+  }
+]
