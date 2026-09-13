@@ -147,7 +147,7 @@ async def get_latest_metrics():
             "total_records": len(flagged),
             "valid_records_count": len(valid_records),
             # Use 'or 100.0' because if overall_index is None, .get() returns None
-            "airfare_index": overall_idx if overall_idx is not None else 100.0,
+            "airoindex_db": overall_idx if overall_idx is not None else 100.0,
             "index_breakdown": index_result.get("per_route", {}),
             "data": flagged
         }
@@ -173,7 +173,7 @@ async def get_latest_metrics():
             "message": str(e),
             "total_records": 0,
             "valid_records_count": 0,
-            "airfare_index": 100.0,
+            "airoindex_db": 100.0,
             "index_breakdown": {},
             "data": []
         }
